@@ -13,12 +13,15 @@ const Navbar = () => {
 
 const Nav = styled.nav`
   width: 95vw;
-  margin: 0rem auto;
+  margin: 0 auto 3rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   .logo {
     padding: 2.5rem 0rem;
+  }
+  @media (max-width: 768px) {
+    margin: 0 auto;
   }
 `;
 
