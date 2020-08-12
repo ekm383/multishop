@@ -15,10 +15,10 @@ function App() {
         <Layout>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/explore" component={Explore} />
-            <Route exact path="/faq" component={Faq} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/cart" component={Cart} />
+            <Route path="/explore" component={Explore} />
+            <Route path="/faq" component={Faq} />
+            <Route path="/login" component={Login} />
+            <Route path="/cart" component={Cart} />
           </Switch>
         </Layout>
       </div>

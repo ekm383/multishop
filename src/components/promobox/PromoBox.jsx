@@ -1,8 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-const PromoBox = ({ children, style }) => {
-  return <StyledPromoBox style={style}>{children}</StyledPromoBox>;
+const PromoBox = ({ children, imageUrl, size }) => {
+  return (
+    <StyledPromoBox
+      style={{ backgroundImage: `url(${imageUrl})` }}
+      className={`${size}`}
+    >
+      {children}
+    </StyledPromoBox>
+  );
 };
 
 const StyledPromoBox = styled.div`
@@ -11,6 +18,8 @@ const StyledPromoBox = styled.div`
   margin-top: 1rem;
   background: palevioletred;
   border-radius: 10px;
+  background-position: center;
+  background-size: cover;
   @media (max-width: 768px) {
     width: 46vw;
   }

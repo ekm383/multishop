@@ -15,42 +15,42 @@ const CategoryList = () => {
       </Hero>
       <StyledList>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
         <Category>
-          <a href="">
+          <a href="/">
             <Title title="shop" subtitle="9 Products | Self-Care" />
           </a>
         </Category>
