@@ -12,7 +12,7 @@ const Title = ({ title, subtitle, children }) => {
 };
 
 const StyledTitle = styled.div`
-  width: 50%;
+  width: 80%;
   height: 100%;
   padding-left: 2rem;
   display: flex;
@@ -22,10 +22,9 @@ const StyledTitle = styled.div`
     font-size: 2.5rem;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   @media (max-width: 768px) {
-    width: 80%;
     padding-left: 1rem;
     h1 {
       font-size: 1.2rem;

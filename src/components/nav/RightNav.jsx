@@ -20,9 +20,6 @@ const RightNav = ({ open }) => {
       <li>
         <NavLink to="/login">Login</NavLink>
       </li>
-      <li>
-        <NavLink to="/open-shop">Open Shop</NavLink>
-      </li>
       <li className="cart">
         <NavLink to="/cart">
           <FaShoppingCart />
@@ -40,7 +37,7 @@ const Ul = styled.ul`
   align-items: center;
   li {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     padding-right: 2.5rem;
     &:nth-child(6) {
@@ -81,7 +78,7 @@ const Ul = styled.ul`
     margin-top: 0;
     li {
       width: 90%;
-      font-size: 2rem;
+      font-size: 2.5rem;
       padding-top: 1rem;
       padding-right: 1rem;
       a {
